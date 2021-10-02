@@ -123,6 +123,7 @@ ActivityMainBinding binding;
 
                 dialog.setContentView(info.getRoot());
 
+                dialog.getWindow().setWindowAnimations(R.style.DailogAnimation);
 
 
 

@@ -15,4 +15,10 @@
     </style>
 
     <style name="DialogStyle" parent="Theme.AppCompat.Dialog"></style>
+
+    <style name="DailogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_down_animation</item>
+        <item name="android:windowExitAnimation">@anim/slide_up_animation</item>
+    </style>
+
 </resources>
